@@ -1,9 +1,8 @@
 A=rand(1,7)
-n=size(A,2);
-max=0;
+n=size(A,2)
+sum=0;
 for i=1:n
-    if(max<abs(A(i)))
-        max=abs(A(i));
-    end
+    sum=sum+abs(A(i))^2;
 end
-max
+sum
+sum^(1/2)
