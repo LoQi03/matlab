@@ -17,4 +17,4 @@ for i=1:n(1)
         invmax=invsum
     end
 end
-invmax*invsum
+invmax*max
